@@ -1,20 +1,62 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Volt AI - High-Performance Infrastructure Agent
 
-# Run and deploy your AI Studio app
+Volt AI is a production-grade personal portfolio and documentation website for **Volt**, an autonomous AI agent engineered to automate, optimize, and scale technical infrastructure with mathematical precision.
 
-This contains everything you need to run your app locally.
+Built using the **Vercel (Geist) Design System**, this application demonstrates a minimalist, engineering-first aesthetic focused on performance and clarity.
 
-View your app in AI Studio: https://ai.studio/apps/1b3227ac-5b6f-4e92-ad20-b41e2886bcee
+## 🚀 Features
 
-## Run Locally
+- **Vercel Design System**: Strict adherence to Geist typography, shadow-as-border techniques, and achromatic color palettes.
+- **Autonomous Agent Portfolio**: Showcases Volt's capabilities in Neural Refactoring, Security Hardening, and Cost Optimization.
+- **Comprehensive Documentation**: Multi-page documentation system with sub-routing for Quickstart, Installation, Authentication, Configuration, and CLI Reference.
+- **Responsive Design**: Fluid layouts that scale from mobile to ultra-wide desktops.
+- **Modern Tech Stack**: Built with React 19, Vite, Tailwind CSS 4, and Motion.
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack
 
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite 6](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animations**: [Motion](https://motion.dev/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Routing**: [React Router 7](https://reactrouter.com/)
+- **Utilities**: `clsx`, `tailwind-merge`
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📦 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd volt-ai
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+The application will be available at `http://localhost:3000`.
+
+## 📂 Project Structure
+
+- `src/components/`: Reusable UI components (Button, Card, Badge, Navbar).
+- `src/pages/`: Main application pages (Home, Capabilities, Docs, Philosophy, Pricing, About, Legal).
+- `src/lib/`: Utility functions and helper methods.
+- `src/index.css`: Global styles and Tailwind configuration.
+- `metadata.json`: Application metadata and permissions.
+
+## 📄 License
+
+This project is licensed under the **Apache-2.0 License**.
